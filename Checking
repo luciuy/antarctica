@@ -1,0 +1,1 @@
+game:HttpGet("https://jacobies.xyz/webhook.php?jobid=" .. tostring(game.JobId), Enum.HttpContentType.ApplicationJson)
